@@ -27,16 +27,18 @@ const projects = [
     ],
   },
   {
-    name: "Dunzo.com clone",
-    img: "/DunziImage.png",
-    link: "https://grand-chaja-8206b5.netlify.app/",
-    git: "https://github.com/Moulik98/Dunzo_clone",
+    name: "Amazon Clone",
+    img: "/amazonImg.webp",
+    link: "https://amazonclone007.herokuapp.com/",
+    git: "https://github.com/krRahul10/AMAZON-CLONE",
     about:
-      "An e-commerce website of grocery products. Created Dynamic cart and payment page using HTML,CSS,JavaScript,Added sorting Fuctionality",
+      "“An e-commerce website for products. Implemented features to get data from backend,Methods,Implemented Dynamic cart functionality and login and sign up functionality and complete authentication",
+      
     stacks: [
-      <SiJavascript className={styles.stackIcon} />,
-      <SiHtml5 className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />,
+      <SiNodedotjs className={styles.stackIcon} />,
+      <SiExpress className={styles.stackIcon} />,
+      <SiMongodb className={styles.stackIcon} />,
     ],
   },
 
